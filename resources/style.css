@@ -39,7 +39,10 @@ header li {
   text-decoration: underline;
   padding-right: 10px;
   list-style: none;
-  color: seashell;
+}
+
+a {
+    color: seashell;
 }
 
 .container {
