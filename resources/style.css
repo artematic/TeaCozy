@@ -1,0 +1,153 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+}
+
+
+header {
+  position: fixed;
+  background-color: black;
+  height: 69px;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid seashell;
+}
+
+main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+header li {
+  display: inline-block;
+  text-decoration: underline;
+  padding-right: 10px;
+  list-style: none;
+  color: seashell;
+}
+
+.container {
+  display: flex;
+  background-color: black;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+#mission .content {
+  background-color: black;
+  align-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+
+h2 h4 {
+  margin: 0;
+}
+
+#tea_headers {
+  display: block;
+  padding-top: 70px;
+}
+
+#tea {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 5px;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item p {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.contact_us {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+
+
+
+#rights {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#location {
+  margin-top: 70px;
+  height: 570px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+#location h2 {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container_loc{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  justify-content: space-around;
+
+}
+
+.location_item {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-right: 40px;
+  background-color: black;
+  opacity: 1;
+}
+
+#loc_heading {
+  display: block;
+  padding-top: 70px;
+}
